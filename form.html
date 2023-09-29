@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Form & option</title>
+</head>
+<body>
+    <h1>Latihan Form</h1>
+    <form action="https://www.google.com/" method="POST">
+        <label for="name">Nama</label>
+        <input type="text" name="" id="name" />
+        <br>
+        <label for="umur">Umur </label>
+        <input type="number" name="umur" id="umur" min="1" max="99">
+        <br>
+        <p><b>Apa warna Favoritmu ?</b></p>
+        <select name="warna" id="warna">
+            <optgroup>Pelangi</optgroup>
+            <option value="Merah">Merah</option>
+            <option value="Kuning">Kuning</option>
+            <option value="Hijau">Hijau</option>
+            <option value="Biru" selected>Biru</option>
+        </select>
+        <br>
+        <br>
+
+        <input type="radio" name="bhs_favorit" id="php" value="php">
+        <label for="php">PHP</label><br>
+
+        <input type="radio" name="bhs_favorit" id="css" value="css">
+        <label for="css">CSS</label><br>
+
+        <input type="radio" name="bhs_favorit" id="html" value="html">
+        <label for="html">HTML</label><br>
+
+        <br>
+        <input style="background-color: green;color: white; border-radius: 1ch;" type="submit" name="submit" id="submit" value="SUBMIT">
+    </form>
+</body>
+</html>
